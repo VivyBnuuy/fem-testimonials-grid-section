@@ -1,0 +1,12 @@
+:root {
+  font-size: 1rem;
+  /* Custom properties */
+  --body-background: #333333;
+}
+
+body {
+  margin: 0;
+  background-color: var(--body-background);
+}
+
+/* Forwards */ /* Forwards *//*# sourceMappingURL=style.css.map */
