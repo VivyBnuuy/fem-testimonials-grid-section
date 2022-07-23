@@ -1,0 +1,13 @@
+@use "sass:math";
+
+$font-fam: 'Barlow Semi Condensed', sans-serif;
+
+$font-20px: (math.div(20, 16));
+$font-13px: (math.div(13, 16));
+$font-11px: (math.div(11, 16));
+
+$font-unit: rem;
+
+$big-font-size: ($font-20px) + ($font-unit);
+$medium-font-size: ($font-13px) + ($font-unit);
+$small-font-size: ($font-11px) +  ($font-unit);

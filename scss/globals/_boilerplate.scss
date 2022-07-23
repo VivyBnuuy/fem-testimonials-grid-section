@@ -1,12 +1,27 @@
+@use "_typography" as fonts;
+
 :root {
-    font-size: 1rem;
+    /* Font */
+    font-size: fonts.$medium-font-size;
 
-    /* Custom properties */
-    --body-background: #333333;
+    /* Colors */
+    --off-white: #ECF2F8;
+    --purple: #733FC8;
+    --light-blue: #48556A;
+    --dark: #19202D;
+    --gray: #CFCFCF;
+    --bright-purple: #A775F1;
 
+    /* Opacity for reviews */
+    --opacity50: 50%;
+    --opacity70: 70%;
 }
 
 body {
     margin: 0;
-    background-color: var(--body-background);
+    padding: 0;
+
+    background-color: var(--off-white);
+
+    font-family: fonts.$font-fam;
 }
