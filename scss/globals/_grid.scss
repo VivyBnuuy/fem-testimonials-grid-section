@@ -1,7 +1,29 @@
+@use "sass:math";
+
 .grid {
     display: grid;
     grid-template: repeat(5, auto) / repeat(1, 1fr);
     gap: 2rem;
 
-    margin: 5rem 2rem;
+    margin: 5rem 1.5rem;
+
+    // Desktop layout
+    @media (min-width: 1275px) {
+        // Get the max-width for the desktop layout columns
+        $max-width: math.div(300, 16) + rem;
+        
+        grid-template: repeat(2, auto) / repeat(4, minmax(auto, $max-width));
+        justify-content: center;
+
+        margin: 5rem 10rem;
+    }
+
+    // Tablet layout
+    @media (min-width: 700px) and (max-width: 1274px) {
+        grid-template: repeat(3, auto) / repeat(2, 1fr);
+
+        margin: 5rem 2rem;
+
+        max-width: unset;
+    }
 }

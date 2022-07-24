@@ -8,6 +8,12 @@ $font-large: (math.div(20, 16)) + rem;
 $font-medium: (math.div(13, 16)) + rem;
 $font-small: (math.div(11, 16)) + rem;
 
+// Line heights
+$line-height-large: (math.div(24, 16)) + rem; 
+$line-height-medium: (math.div(18, 16)) + rem;
+$line-height-small: (math.div(13, 16)) + rem;
+$line-height-smaller: (math.div(11, 16)) + rem;
+
 :root {
     // Opacity for review text
     --opacity50: 50%;

@@ -1,7 +1,9 @@
-// Styling for the card containers
 .card {
-    border-radius: 1rem;
-    padding: 1.5rem 1.5rem;
+    // Base style for cards
+    border-radius: 0.5rem;
+    padding: 1.5rem 2rem;
+
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
 
     &--purple {
         background-color: var(--purple);
@@ -20,5 +22,29 @@
 
     &--dark-blue {
         background-color: var(--dark-blue);
+    }
+
+    // Desktop layout
+    @media (min-width: 1275px) {
+
+        &:nth-child(1) {
+            grid-area: 1 / 1 / 2 / 3;
+            background-position: top right 5rem;
+        }
+
+        &:nth-child(4) {
+            grid-area: 2 / 2 / 3 / 4;
+        }
+        
+        &:nth-child(5) {
+            grid-area: 1 / 4 / 3 / 5;
+        }
+    }
+
+    // Tablet layout
+    @media (min-width: 700px) and (max-width: 1274px) {
+        &:nth-child(1) {
+            grid-area: 1 / 1 / 2 / 3;
+        }
     }
 }

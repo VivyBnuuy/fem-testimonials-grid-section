@@ -11,7 +11,7 @@
 
         border-radius: 100%;
         border-style: solid;
-        border-width: 0.2rem;
+        border-width: 0.15rem;
         border-color: transparent;
 
         margin: 0 1rem 0 0;
@@ -21,14 +21,10 @@
         width: math.div($img-size, 2) + rem;
 
         &--border-bright {
-            border-style: solid;
-            border-width: 0.2rem;
             border-color: var(--bright-purple);
         }
 
         &--border {
-            border-style: solid;
-            border-width: 0.2rem;
             border-color: var(--purple);
         }
     }
@@ -38,6 +34,8 @@
         align-self: end;
 
         margin: 0;
+
+        line-height: fonts.$line-height-small;
 
         &--white {
             color: var(--white);
@@ -55,6 +53,7 @@
         margin: 0;
 
         font-size: fonts.$font-small;
+        line-height: fonts.$line-height-smaller;
         opacity: var(--opacity50);
 
         &--white {
@@ -75,8 +74,9 @@
 .review {
     &__header {
         font-size: fonts.$font-large;
+        line-height: fonts.$line-height-large;
 
-        margin: 1rem 0 1.5rem 0;
+        margin: 1rem 0 1rem 0;
 
         &--white {
             color: var(--white);
@@ -93,6 +93,7 @@
 
     &__paragraph {
         opacity: var(--opacity70);
+        line-height: fonts.$line-height-medium;
 
         &--white {
             color: var(--white);
