@@ -20,6 +20,6 @@ For this challenge, I used the following:
 - I think I named my classes properly according to BEM, but since this was my first time I'm not 100% sure.
 
 # The End
-Thanks for checking out my solution to this challenge! If you have any feedback, I would love if you reached out to me or left a comment on my <a href="https://www.frontendmentor.io/solutions/testimonials-grid-section-css-grid-sassscss-and-bem-ppvoVyrZ7l" target="_blank">solution page</a> - I'm always looking to improve!
+Thanks for checking out my solution to this challenge! If you have any feedback, I would love if you reached out to me or opened an issue if there's anything that needs fixing; I'm always looking to improve!
 
 Happy coding!
